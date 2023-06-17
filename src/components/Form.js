@@ -7,7 +7,7 @@ export default function Form(){
     return(
         <form onSubmit={(e) => {
             e.preventDefault()
-            console.log({name:{name}, email:{email}, password:{password}})
+            console.log({name}, {email}, {password})
         }}>
             <div>
                 <label for="name">Name</label>
